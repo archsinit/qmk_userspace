@@ -13,4 +13,3 @@ REPEAT_KEY_ENABLE = yes
 LAYER_LOCK_ENABLE = yes
 SEND_STRING_ENABLE = yes
 LEADER_ENABLE = yes
-SRC += features/select_word.c
