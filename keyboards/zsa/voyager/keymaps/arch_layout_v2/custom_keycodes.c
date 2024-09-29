@@ -29,6 +29,8 @@
 // Shift Normal Mode
 #define C_ZMI LCTL(KC_MS_WH_UP)         // Ctrl-Wheel Up : Zoom In
 #define C_ZMO LCTL(KC_MS_WH_DOWN)       // Ctrl-Wheel Down : Zoom Out
+#define C_WHL KC_MS_WH_LEFT             // Scroll Left
+#define C_WHR KC_MS_WH_RIGHT            // Scroll Right
 
 // Layer Changes
 #define L_NOR TO(_QWERTY)               // Change Layer to _QWERTY
