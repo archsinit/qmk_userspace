@@ -24,17 +24,19 @@
 #define C_SLE LSFT(KC_END)              // Shift-End : Select to End of Page
 #define C_SLP LSFT(LCTL(KC_LEFT))       // Shift-Ctrl-Left : Select Prior Word
 #define C_SLN LSFT(LCTL(KC_RIGHT))      // Shift-Ctrl-Right : Select Next Word
+#define C_BKS LCTL(KC_BSPC)            // Ctrl-Backspace : Delete Work
 
 // Shift Normal Mode
 #define C_ZMI LCTL(KC_MS_WH_UP)         // Ctrl-Wheel Up : Zoom In
 #define C_ZMO LCTL(KC_MS_WH_DOWN)       // Ctrl-Wheel Down : Zoom Out
 
 // Layer Changes
-#define L_NOR TO(_NORMAL)               // Change Layer to _NORMAL
+#define L_NOR TO(_QWERTY)               // Change Layer to _QWERTY
 #define L_STY TO(_STURDY)               // Change Layer to _STURDY
 #define L_INS TO(_INSERT)               // Change Layer to _INSERT
 #define L_SFT MO(_SHIFT)                // Change Layer to _SHIFT
-#define L_CAL MO(_CALLUM)              // Change Layer to _CALLUM
+#define L_CAL MO(_CALLUM)               // Change Layer to _CALLUM
+#define L_EXC OSL(_EXTEND)               // Change Layer to _EXTEND
 
 // One Shot Modifiers
 #define O_SFT OSM(MOD_LSFT)             
@@ -43,6 +45,9 @@
 #define O_GUI OSM(MOD_LGUI)
 #define O_MEH OSM(MOD_MEH)
 #define O_HYP OSM(MOD_HYPR)
+
+// Additional Meh Modifiers
+#define M_SCN MEH(KC_F)                 // Meh-F : Fullscreen Mode
 
 enum custom_keycodes {
   C_STAB = SAFE_RANGE,                  // Ctrl-Tab : Switch Tab And Hold Ctrl 
