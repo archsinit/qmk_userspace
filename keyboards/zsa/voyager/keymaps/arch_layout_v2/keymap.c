@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_QWERTY] = LAYOUT(
         C_SWIN,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,
         KC_QUOT, KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_EQL,
-        QK_GESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                         KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, C_BKS,
+        QK_GESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                         KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, _______,
         KC_TAB,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT,
                                                      O_SFT,   L_CAL,      QK_LEAD, KC_SPC
     ),
@@ -28,12 +28,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_BSPC, KC_ENT,  KC_BSLS, KC_LBRC, KC_RBRC, C_ZMI,                        KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_F12,
         QK_GESC, O_SFT,   O_GUI,   O_ALT,   O_CTL,   C_ZMO,                        KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DEL,  KC_BSPC,
         KC_TAB,  C_UND,   C_CUT,   C_CPY,   C_PST,   L_EXC,                        _______, _______, KC_PSCR, C_LNG,   KC_RALT, KC_ENT,
-                                                     KC_SPC,  _______,    _______, _______
+                                                     KC_SPC,  QK_LLCK,    _______, _______
     ),
     [_EXTEND] = LAYOUT(
         M_SCN,   KC_6,    KC_7,    KC_8,    KC_9,    KC_0,                         _______, _______, _______, _______, _______, _______,
-        C_WHL,   _______, _______, _______, _______, KC_Y,                         _______, _______, _______, _______, _______, _______,
-        C_WHR,   _______, _______, _______, _______, KC_H,                         _______, _______, _______, _______, _______, _______,
+        C_WHL,   _______, _______, KC_UP,   _______, KC_Y,                         _______, _______, _______, _______, _______, _______,
+        C_WHR,   _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_H,                         _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, KC_N,                         _______, _______, _______, _______, _______, _______,
                                                      KC_SPC,   L_NOR,       _______, _______
     ),

@@ -14,7 +14,8 @@ void leader_end_user(void) {
     if (leader_sequence_two_keys(KC_Z, KC_Z)) {
         // leader z z => Reset leader state
 
-    } else if (leader_sequence_two_keys(KC_D, KC_D)) {
+    // Paisa Related Shortcuts
+    } else if (leader_sequence_two_keys(KC_L, KC_D)) {
         
     }
     rgb_matrix_mode_noeeprom(RGB_MATRIX_CYCLE_ALL);
