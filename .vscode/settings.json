@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "select_word.h": "c"
+        "select_word.h": "c",
+        "sm_td.h": "c",
+        "custom_shift_keys_user.h": "c"
     }
 }
