@@ -17,7 +17,7 @@
 bool is_alt_tab_active = false;
 uint16_t alt_tab_timer = 0;
 bool is_ctrl_tab_active = false; 
-uint16_t ctrl_tab_timer = 0; 
+uint16_t ctrl_tab_timer = 0;
 
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
   if (!process_custom_shift_keys(keycode, record)) { return false; }

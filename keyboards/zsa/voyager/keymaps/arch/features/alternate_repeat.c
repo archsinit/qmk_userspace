@@ -7,6 +7,8 @@
 uint16_t get_alt_repeat_key_keycode_user(uint16_t keycode, uint8_t mods) {
     switch (keycode) {
         case KC_SPC: SEND_STRING(/* */"the "); return KC_TRNS;  // " the"
+        case KC_EQL: return KC_RABK; // "=>"
+        case KC_MINS: return KC_RABK; // "->"
         case KC_E: return KC_D;  // For "ED" bigram.
         case KC_D: return KC_E;  // For "DE" bigram.
         case KC_C: return KC_E;  // For "CE" bigram.

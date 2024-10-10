@@ -9,6 +9,7 @@ enum layers {
     _MAIN = 0,
     _QWERTY,
     _EXTEND,
+    _EXTEND2,
 };
 
 // Custom Keycodes
@@ -40,6 +41,7 @@ enum custom_keycodes {
 #define L_MAI TO(_MAIN)
 #define L_QWE TO(_QWERTY)
 #define L_EXT MO(_EXTEND)
+#define L_EX2 OSL(_EXTEND2)
 
 // Miscellaneous
 #define C_ZMI LCTL(KC_MS_WH_UP) 
