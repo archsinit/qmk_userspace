@@ -17,6 +17,8 @@ enum custom_keycodes {
   C_STAB = SAFE_RANGE,
   C_SWIN,
 
+  M_JIGG,
+
   SMTD_KEYCODES_BEGIN, /*======================================*/
   CK_9,
   CK_0,

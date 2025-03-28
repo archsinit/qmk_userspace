@@ -15,4 +15,7 @@ REPEAT_KEY_ENABLE = yes
 SEND_STRING_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes
 
+MOUSE_ENABLE = yes
+DEFERRED_EXEC_ENABLE = yes
+
 SRC += features/custom_shift_keys.c
